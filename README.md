@@ -18,9 +18,9 @@ Minetest mod designed to dis-incentivize player killing and common griefer/troll
 
 ## Authors of source code
 
-Originally by PilzAdam (MIT)
-Various Minetest developers and contributors (MIT)
-Modified features by @insanity54 (Unlicense)
+  * Originally by PilzAdam (MIT)
+  * Various Minetest developers and contributors (MIT)
+  * Modified features by @insanity54 (Unlicense)
 
 ## Authors of media (textures)
 
