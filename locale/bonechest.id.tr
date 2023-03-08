@@ -1,0 +1,6 @@
+# textdomain: bonechest
+bonechest=Tulang
+@1 died at @2.=@1 mati di @2.
+@1 died at @2, and dropped their inventory.=@1 mati di @2 dan meninggalkan barangnya.
+@1 died at @2, and bonechest were placed.=@1 mati di @2 dan tulangnya diletakkan.
+@1's bonechest=Tulang @1

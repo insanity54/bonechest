@@ -1,0 +1,9 @@
+# bonechests automatically destroy after this many seconds
+bonechest_destroy_time (Bonechest Destroy Time [seconds]) int 604800
+
+# The mode of the bonechest. 'keep' means the players keep their items and a bonechest is not created. 'destroy' means the player's items are destroyed and a bonechest is not created. 'bonechest' is the default behavior where a bonechest is created (unless in a protected zone)."
+bonechest_mode (Bonechest Mode [keep|destroy|bonechest]) string bonechest
+
+
+# Whether or not to display a xyz coordinate to the player
+bonechest_position_message (Bonechest Position Message [true|false]) bool true

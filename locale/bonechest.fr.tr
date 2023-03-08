@@ -1,0 +1,6 @@
+# textdomain: bonechest
+bonechest=Os
+@1 died at @2.=@1 est mort à @2.
+@1 died at @2, and dropped their inventory.=@1 est mort à @2 et a laissé tomber son inventaire.
+@1 died at @2, and bonechest were placed.=@1 est mort à @2 et ses os ont été placés.
+@1's bonechest=Os de @1

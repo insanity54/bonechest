@@ -1,0 +1,6 @@
+# textdomain: bonechest
+bonechest=骨骸
+@1 died at @2.=@1在@2死亡。
+@1 died at @2, and dropped their inventory.=@1在@2死亡，丟掉了物品欄。
+@1 died at @2, and bonechest was placed.=@1在@2死亡，骨骸被放置。
+@1's bonechest=@1的骨骸

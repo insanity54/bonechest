@@ -1,0 +1,6 @@
+# textdomain: bonechest
+bonechest=Kosti
+@1 died at @2.=@1 zomrel na pozícií @2.
+@1 died at @2, and dropped their inventory.=@1 zomrel na pozícií @2 a vysypal svoj inventár.
+@1 died at @2, and bonechest were placed.=@1 zomrel na pozícií @2 a ostali po ňom kosti.
+@1's bonechest=Kosti hráča  @1

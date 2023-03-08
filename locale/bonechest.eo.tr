@@ -1,0 +1,6 @@
+# textdomain: bonechest
+bonechest=Ostoj
+@1 died at @2.=@1 mortis ĉe @2
+@1 died at @2, and dropped their inventory.=@1 mortis ĉe @2, kaj delasis sian stokon.
+@1 died at @2, and bonechest were placed.=@1 mortis ĉe @2, kaj ostoj estas demetitaj.
+@1's bonechest=La ostoj de @1

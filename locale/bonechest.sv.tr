@@ -1,0 +1,6 @@
+# textdomain: bonechest
+bonechest=Ben
+@1 died at @2.=@1 dog på @a.
+@1 died at @2, and dropped their inventory.=@1 dog på @a, och tappade deras saker.
+@1 died at @2, and bonechest were placed.=@1 dog på @2, och deras ben var placerade.
+@1's bonechest=@1s ben

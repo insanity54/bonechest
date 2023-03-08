@@ -1,0 +1,6 @@
+# textdomain: bonechest
+bonechest=骨
+@1 died at @2.=@1は@2で死亡しました。
+@1 died at @2, and dropped their inventory.=@1は@2で死亡して持ち物を落としました。
+@1 died at @2, and bonechest were placed.=@1は@2で死亡して骨が残されました。
+@1's bonechest=@1の骨
