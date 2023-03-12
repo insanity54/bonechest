@@ -196,13 +196,16 @@ minetest.register_node("bonechest:bonechest", {
 		end
 
 		local world_time_of_death = minetest.get_meta(pos):get_int("world_time_of_death")
-		if world_time_of_death == "" then
+		if world_time_of_death == nil or world_time_of_death == 0 then
 			return
 		end
 
 		local bonechest_inv = minetest.get_meta(pos):get_inventory()
 		local player_inv = player:get_inventory()
 		local has_space = true
+
+		-- for each item in the bonechest,
+		--   move the item to the player's inv
 
 		for i = 1, bonechest_inv:get_size("main") do
 			local stk = bonechest_inv:get_stack("main", i)
@@ -215,10 +218,13 @@ minetest.register_node("bonechest:bonechest", {
 			end
 		end
 
-		-- remove modstorage record
-		bonechest.storage:set_string('d:'..player_name..":"..world_time_of_death, "")
+		if has_space then
+			-- remove modstorage record
+			bonechest.storage:set_string('d:'..player_name..":"..world_time_of_death, "")
 
-		minetest.remove_node(pos)
+			-- remove bonechest
+			minetest.remove_node(pos)
+		end
 	end,
 
 	-- destroy bonechest if it's time has expired
